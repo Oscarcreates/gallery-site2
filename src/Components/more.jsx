@@ -6,13 +6,13 @@ import { GiTrophyCup } from "react-icons/gi";
 const More = () => {
     return (
         <div className='h-full bg-white py-16 '>
-            <div className='md:h-[800px] h-[1300px] w-[1000px] mx-w-[400px] mx-auto bg-[#00CED1] grid md:grid-cols-3 px-16 '>
-                <div className='text-[#0B1F3F] pt-4 flex flex-col justify-center w-[400px] md:w-full'>
-                    <h1 className='md:text-7xl text-5xl text-center md:text-left'>We do </h1>
-                    <h1 className='md:text-7xl text-5xl  mb-6 font-light text-center md:text-left'>More </h1>
-                    <button className='p-2 bg-[#0B1F3F] w-[50%] mx-auto md:m-0 rounded-md text-white'>Book Session</button>
+            <div className='md:h-[800px] h-full md:w-[1000px] mx-w-[300px] mx-auto bg-[#00CED1] grid md:grid-cols-3 md:px-16  px-2 text-center py-6 justify-center'>
+                <div className='text-[#0B1F3F] pt-4 flex flex-col justify-center w-[300px] md:w-full overflow-y-hidden'>
+                    <h1 className='md:text-7xl text-5xl md:text-left overflow-y-hidden'>We do </h1>
+                    <h1 className='md:text-7xl text-5xl  mb-6 font-light md:text-left overflow-y-hidden'>More </h1>
+                    <button className='p-2 bg-[#0B1F3F] w-[50%] mx-auto md:m-0 rounded-md text-white '>Book Session</button>
                 </div>
-                <div className='pt-10 w-[400px] md:w-full text-center md:text-left'>
+                <div className='pt-10 w-[300px] md:w-full text-center md:text-left'>
                     <HiOutlineLightBulb className='text-[#0B1F3F] md:text-[10rem] text-9xl mx-auto md:mx-0' />
                     <div className='text-[#0B1F3F] w-[95%]'>
                         <h1 className='font-bold md:text-2xl text-xl '>WE CAPTURE MORE
@@ -24,7 +24,7 @@ const More = () => {
                      
                     </div>
                 </div>
-                <div className='pt-10  w-[400px] md:w-full text-center md:text-left'>
+                <div className='pt-10  w-[300px] md:w-full text-center md:text-left '>
                     <GiTrophyCup className='text-[#0B1F3F] md:text-[10rem]  text-9xl mx-auto md:mx-0' />
                     <div className='text-[#0B1F3F] w-[95%]'>
                         <h1 className='font-bold md:text-2xl text-xl '>AWARD-WINNING CREATIVE TEAM

@@ -28,7 +28,7 @@ const Navbar = () => {
 </div>
 
     
-     <div className={nav ? "ease-in-out duration-500 h-full w-[60%] fixed left-0 top-0 border-r bg-[black] border-r-gray-900 md:hidden" : "fixed left-[-100%]"}>
+     <div className={nav ? "ease-in-out duration-500 h-full w-[60%] fixed left-0 top-0 border-r bg-[#0A2540] border-r-[#0A2540] md:hidden" : "fixed left-[-100%]"}>
          <img className="max-w-[120px] m-4" src={logo} alt="" />
         <ul className="p-4">
            <li className='p-4 border-b border-white'>Home</li>
