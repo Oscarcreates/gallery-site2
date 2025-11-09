@@ -1,5 +1,4 @@
 import React from 'react'
-import location from '/public/assets/location.mp4'
 
 const Video = () => {
     return (
@@ -11,7 +10,7 @@ const Video = () => {
 
             <div className='w-full max-w-4xl mx-auto px-4 my-8'>
                 <video className="w-full rounded-lg" controls>
-                    <source src={location} type="video/mp4" />
+                    <source src='/assets/location.mp4' type="video/mp4" />
                 </video>
 
             </div>
