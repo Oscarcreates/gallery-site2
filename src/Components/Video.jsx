@@ -10,7 +10,7 @@ const Video = () => {
 
             <div className='w-full max-w-4xl mx-auto px-4 my-8'>
                 <video className="w-full rounded-lg" controls>
-                    <source src='/public/assets/location.mp4' type="video/mp4" />
+                    <source src='https://res.cloudinary.com/dquamrc0f/video/upload/v1762708742/location_jecnuk.mp4' type="video/mp4" />
                 </video>
 
             </div>
