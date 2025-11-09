@@ -1,5 +1,4 @@
 import React from 'react'
-import location from '/public/assets/location.mp4'
 
 
 const Hero = () => {
@@ -13,7 +12,7 @@ const Hero = () => {
                 muted
                 playsInline
             >
-                <source src={location} type="video/mp4" />
+                <source src="/assets/location.mp4" type="video/mp4" />
             </video>
 
             <div className='absolute top-0 left-0 w-full h-full bg-black opacity-70'></div>
