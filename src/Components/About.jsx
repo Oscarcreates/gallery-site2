@@ -9,8 +9,8 @@ const About = () => {
                 <h1 className='md:text-5xl sm:text-xl text-2xl pb-2 text-left'>Bring beautiful moments</h1>
                 <h1 className='md:text-5xl sm:text-xl text-2xl pb-4 font-bold'>to life for your audience.</h1>
             
-                <p className=' border-l-8 border-l-[#00CED1] px-2  text-left font-light w-[300px] md:w-full '>We take indoor and outdoor Photos, Cover Events like wedding , Traditional marriage, Concerts , Campaigns , We produce commercials  and Movies etc </p>
-                <p className='border-l-8 border-l-[#00CED1] px-2  text-left pt-3 font-light w-[300px] md:w-full '>Our lens doesnt just see 
+                <p className=' border-l-8 border-l-[#0D0630] px-2  text-left font-light w-[300px] md:w-full '>We take indoor and outdoor Photos, Cover Events like wedding , Traditional marriage, Concerts , Campaigns , We produce commercials  and Movies etc </p>
+                <p className='border-l-8 border-l-[#0D0630] px-2  text-left pt-3 font-light w-[300px] md:w-full '>Our lens doesnt just see 
 it feels, it listens, and it remembers</p>
             
             </div>
@@ -26,7 +26,7 @@ it feels, it listens, and it remembers</p>
                     <p className='font-bold text-black pb-6 '>We specialize in capturing timeless moments and producing high-quality visual content.</p>
                     <p className='text-black'>Our team offers professional indoor and outdoor photography services, covering a wide range of occasions such as weddings, traditional marriage ceremonies, concerts, and corporate or political campaigns. Beyond event coverage, we also create compelling commercials, short films, and full-length movie productions that tell powerful stories and connect deeply with audiences.</p>
                     <p className='font-bold text-black py-6'>Whether it’s a personal celebration, a brand campaign, or a cinematic project, we bring creativity, precision, and passion to every frame.</p>
-                    <button className='p-2 bg-black w-[40%] mx-auto md:m-0 rounded-md'>Book Session</button>
+                    <button className='p-2 bg-[#0D0630] w-[40%] mx-auto md:m-0 rounded-md'>Book Session</button>
                 </div>
             </div>
             

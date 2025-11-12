@@ -1,6 +1,6 @@
 import React, {useState}from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import logo from '/assets/logo.png'
+import logo from '/assets/logo11.png'
 
 
 
@@ -13,7 +13,7 @@ const Navbar = () => {
  }
 
   return (
-    <div className= 'flex justify-between text-white items-center mx-auto h-20 px-16 fixed top-0 left-0 w-full z-50 bg-[#0A2540]'>
+    <div className= 'flex justify-between text-white items-center mx-auto h-20 px-16 fixed top-0 left-0 w-full z-50 bg-[#0D0630]'>
    <img className="max-w-[120px]" src={logo} alt="" />
       <ul className='hidden md:flex' >
         <li className='p-4'>Home</li>

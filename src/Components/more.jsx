@@ -6,11 +6,11 @@ import { GiTrophyCup } from "react-icons/gi";
 const More = () => {
     return (
         <div className='h-full bg-white py-16 '>
-            <div className='md:h-[800px] h-full md:w-[1000px] mx-w-[300px] mx-auto bg-[#00CED1] grid md:grid-cols-3 md:px-16  px-2 text-center py-6 justify-center'>
+            <div className='md:h-[800px] h-full md:w-[1000px] mx-w-[300px] mx-auto bg-[#F4D35E] grid md:grid-cols-3 md:px-16  px-2 text-center py-6 justify-center'>
                 <div className='text-[#0B1F3F] pt-4 flex flex-col justify-center w-[300px] md:w-full overflow-y-hidden'>
                     <h1 className='md:text-7xl text-5xl md:text-left overflow-y-hidden'>We do </h1>
                     <h1 className='md:text-7xl text-5xl  mb-6 font-light md:text-left overflow-y-hidden'>More </h1>
-                    <button className='p-2 bg-[#0B1F3F] w-[50%] mx-auto md:m-0 rounded-md text-white '>Book Session</button>
+                    <button className='p-2 bg-[#0D0630] w-[50%] mx-auto md:m-0 rounded-md text-white '>Book Session</button>
                 </div>
                 <div className='pt-10 w-[300px] md:w-full text-center md:text-left'>
                     <HiOutlineLightBulb className='text-[#0B1F3F] md:text-[10rem] text-9xl mx-auto md:mx-0' />
