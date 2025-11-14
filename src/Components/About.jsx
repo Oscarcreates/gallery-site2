@@ -40,18 +40,18 @@ it feels, it listens, and it remembers</p>
             </div>
 
             <div className='text-white mx-auto grid md:grid-cols-3 max-w-[1000px] '>
-                <div className=''>
-                    <img className='w-[400px] mx-auto md:mx-0 ' src={imagex} alt="" />
+               <div className='w-[330px] md:mx-0 mx-auto'>
+                <img className='w-[480px] px-1 py-6 md:py-0' src={imagex} alt="" />
                 </div>
                 <div className='flex flex-col md:justify-center w-[300px] md:w-auto mx-auto px-6  text-center md:text-left'>
                     <p className='font-bold text-black pb-6 '>We specialize in capturing timeless moments and producing high-quality visual content.</p>
                     <p className='text-black py-6'>Our team offers professional indoor and outdoor photography services, covering a wide range of occasions such as weddings, traditional marriage ceremonies, concerts, and corporate or political campaigns.</p>
                     {/* <p className='font-bold text-black py-6'>Whether it’s a personal celebration, a brand campaign, or a cinematic project, we bring creativity, precision, and passion to every frame.</p> */}
-                    <button className='p-2 bg-[#0D0630] w-[50%] mx-auto md:m-0 rounded-md'> <a href="https://wa.link/byb5an">Book Session</a></button>
+                    <button className='py-2 bg-[#0D0630] w-[50%] mx-auto md:m-0 rounded-md'> <a href="https://wa.link/byb5an">Book Session</a></button>
                 </div>
                 <div >
-                 <div className='w-[330px]'>
-                <img className='w-[480px] px-1 py-2 md:py-0' src={img8} alt="" />
+                 <div className='w-[330px] md:mx-0 mx-auto'>
+                <img className='w-[480px] md:px-1 pt-6 md:py-0' src={img8} alt="" />
                 </div>
                 </div>
             </div>
