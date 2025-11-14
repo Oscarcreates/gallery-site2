@@ -5,7 +5,7 @@ const Socials = () => {
   return (
    <div className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-50">
   <a 
-    href="https://facebook.com/yourpage" 
+    href="https://www.facebook.com/share/19xAgfTRmF/?mibextid=wwXIfr" 
     target="_blank"
     className="bg-gray-400 hover:bg-gray-500 w-14 h-14 rounded-full flex items-center justify-center transition-colors"
   >
@@ -13,7 +13,7 @@ const Socials = () => {
   </a>
   
   <a 
-    href="https://wa.me/2348038163489" 
+    href="wa.link/byb5an" 
     target="_blank"
     className="bg-gray-400 hover:bg-gray-500 w-14 h-14 rounded-full flex items-center justify-center transition-colors"
   >
