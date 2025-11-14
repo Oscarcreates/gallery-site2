@@ -47,7 +47,7 @@ it feels, it listens, and it remembers</p>
                     <p className='font-bold text-black pb-6 '>We specialize in capturing timeless moments and producing high-quality visual content.</p>
                     <p className='text-black py-6'>Our team offers professional indoor and outdoor photography services, covering a wide range of occasions such as weddings, traditional marriage ceremonies, concerts, and corporate or political campaigns.</p>
                     {/* <p className='font-bold text-black py-6'>Whether it’s a personal celebration, a brand campaign, or a cinematic project, we bring creativity, precision, and passion to every frame.</p> */}
-                    <button className='p-2 bg-[#0D0630] w-[50%] mx-auto md:m-0 rounded-md'>Book Session</button>
+                    <button className='p-2 bg-[#0D0630] w-[50%] mx-auto md:m-0 rounded-md'> <a href="https://wa.link/byb5an">Book Session</a></button>
                 </div>
                 <div >
                  <div className='w-[330px]'>

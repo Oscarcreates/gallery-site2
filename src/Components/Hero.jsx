@@ -6,7 +6,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
     return (
-        <div className='relative h-screen text-white overflow-hidden'>
+        <div id='Home' className='relative h-screen text-white overflow-hidden'>
     
             <video 
                 className='absolute top-0 left-0 w-full h-full object-cover'
@@ -33,7 +33,7 @@ const Hero = () => {
                
                 <div className='text-black mx-auto flex flex-col items-center'>
                     <button className='bg-[#F4D35E] p-4 rounded-md font-light text-[#0D0630] hover:bg-[#00B8BB] transition-colors'>
-                        Book a Session
+                      <a href="https://wa.link/byb5an">Book a Session</a>  
                     </button>
                 </div>
             </div>

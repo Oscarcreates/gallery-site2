@@ -10,7 +10,7 @@ const More = () => {
                 <div className='text-[#0B1F3F] pt-4 flex flex-col justify-center w-[300px] md:w-full overflow-y-hidden'>
                     <h1 className='md:text-7xl text-5xl md:text-left overflow-y-hidden'>We do </h1>
                     <h1 className='md:text-7xl text-5xl  mb-6 font-light md:text-left overflow-y-hidden'>More </h1>
-                    <button className='p-2 bg-[#0D0630] w-[50%] mx-auto md:m-0 rounded-md text-white '>Book Session</button>
+                    <button className='p-2 bg-[#0D0630] w-[50%] mx-auto md:m-0 rounded-md text-white '><a href="https://wa.link/byb5an">Book Session</a></button>
                 </div>
                 <div className='pt-10 w-[300px] md:w-full text-center md:text-left'>
                     <HiOutlineLightBulb className='text-[#0B1F3F] md:text-[10rem] text-9xl mx-auto md:mx-0' />

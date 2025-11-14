@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className= 'flex justify-between text-white items-center mx-auto h-20 px-16 fixed top-0 left-0 w-full z-50 bg-[#0D0630]'>
    <img className="max-w-[120px]" src={logo} alt="" />
       <ul className='hidden md:flex' >
-        <li className='p-4'>Home</li>
+        <li className='p-4'><a href="#Home">Home</a></li>
         <li className='p-4'><a href="#About">About</a></li>
         {/* <li className='p-4'>Resource</li> */}
         <li className='p-4'><a href="#contact">Contact</a>
@@ -31,7 +31,7 @@ const Navbar = () => {
      <div className={nav ? "ease-in-out duration-500 h-full w-[60%] fixed left-0 top-0 border-r bg-[#0A2540] border-r-[#0A2540] md:hidden" : "fixed left-[-100%]"}>
          <img className="max-w-[120px] m-4" src={logo} alt="" />
         <ul className="p-4">
-           <li className='p-4 border-b border-white'>Home</li>
+           <li className='p-4 border-b border-white'><a href="#Home">Home</a></li>
         <li className='p-4 border-b border-white'><a href="#About">About</a></li>
         {/* <li className='p-4 border-b border-white'>Resource</li> */}
         <li className='p-4'><a href="#Contact">Contact</a></li>
