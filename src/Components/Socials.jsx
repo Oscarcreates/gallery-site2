@@ -13,7 +13,7 @@ const Socials = () => {
   </a>
   
   <a 
-    href="wa.link/byb5an" 
+    href="https://wa.link/byb5an" 
     target="_blank"
     className="bg-gray-400 hover:bg-gray-500 w-14 h-14 rounded-full flex items-center justify-center transition-colors"
   >
