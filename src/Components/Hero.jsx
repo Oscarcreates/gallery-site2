@@ -1,4 +1,7 @@
 import React from 'react'
+import { ReactTyped } from "react-typed";
+
+
 
 
 const Hero = () => {
@@ -22,6 +25,10 @@ const Hero = () => {
                     <h1 className='md:text-5xl sm:text-xl text-2xl text-[#F4D35E]'>FREEZING MOMENTS</h1>
                     <h1 className='md:text-6xl sm:text-3xl text-3xl text-[#F4D35E]'>FRAMING EMOTIONS</h1>
                     <p className='py-8 md:text-2xl sm:text-2xl text-1xl'>-BEAUTY - STYLE - MOMENTS-</p>
+                    <div>
+                        <p className='py-6 md:text-3xl sm:text-2xl text-1xl text-white'>{<ReactTyped strings={['Photos', 'Weddings', 'Traditional Marriage', 'Concerts', 'Campaigns', 'Movies and Commercials']} typeSpeed = {120} backSpeed={140} loop /> }</p>
+                        
+                    </div>
                 </div>
                
                 <div className='text-black mx-auto flex flex-col items-center'>
