@@ -58,7 +58,7 @@ const handleSubmit = (e) => {
         <form onSubmit={handleSubmit}>
           <div className='grid md:grid-cols-2 gap-2 px-8 md:px-16'>
             <input
-              className='p-4 bg-white mt-2'
+              className='p-4 bg-white mt-2 rounded-md '
               type='text'
               name='name'
               value={formData.name}
@@ -67,7 +67,7 @@ const handleSubmit = (e) => {
               required
             />
             <input
-              className='p-4 bg-white mt-2'
+              className='p-4 bg-white mt-2 rounded-md'
               type='email'
               name='email'
               value={formData.email}
@@ -77,9 +77,9 @@ const handleSubmit = (e) => {
             />
           </div>
 
-          <div className='grid flex-col-1 px-8 md:px-16'>
+          <div className='grid flex-col-1 px-8 md:px-16 rounded-md'>
             <input
-              className='p-4 bg-white mt-2'
+              className='p-4 bg-white mt-2 rounded-md'
               type='tel'
               name='phone'
               value={formData.phone}
@@ -87,7 +87,7 @@ const handleSubmit = (e) => {
               placeholder='Phone Number'
             />
             <input
-              className='p-4 bg-white mt-2'
+              className='p-4 bg-white mt-2 rounded-md'
               type='text'
               name='subject'
               value={formData.subject}
@@ -96,7 +96,7 @@ const handleSubmit = (e) => {
               required
             />
             <textarea
-              className='p-4 bg-white mt-2 min-h-[100px]'
+              className='p-4 bg-white mt-2 rounded-md min-h-[100px] '
               name='message'
               value={formData.message}
               onChange={handleChange}

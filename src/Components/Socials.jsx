@@ -11,6 +11,7 @@ const Socials = () => {
   >
     <FaFacebook className="text-white text-2xl" />
   </a>
+
   
   <a 
     href="https://wa.link/byb5an" 
