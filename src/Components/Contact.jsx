@@ -1,49 +1,49 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     subject: '',
     message: ''
-    
-})
 
-const [status, setStatus] = useState('')
-
-const handleChange =(e) => {
-  setFormData({
-    ...formData,
-    [e.target.name]:e.target.value
   })
-}
 
-const handleSubmit = (e) => {
+  const [status, setStatus] = useState('')
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    })
+  }
+
+  const handleSubmit = (e) => {
     e.preventDefault()
     setStatus('sending')
 
 
     emailjs.send(
-      'service_vxw9ltj',      
-      'template_06lkx9u',     
+      'service_vxw9ltj',
+      'template_06lkx9u',
       {
-        from_name: formData.name,
-        from_email: formData.email,
-        from_phone: formData.phone,
-        from_subject: formData.subject,
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        subject: formData.subject,
         message: formData.message,
       },
-      '-gBOVOwUnv2FheK0o'     
+      '-gBOVOwUnv2FheK0o'
     )
-    .then(() => {
-      setStatus('success')
-      setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
-    })
-    .catch(() => {
-      setStatus('error')
-    })
+      .then(() => {
+        setStatus('success')
+        setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
+      })
+      .catch(() => {
+        setStatus('error')
+      })
   }
 
   return (
