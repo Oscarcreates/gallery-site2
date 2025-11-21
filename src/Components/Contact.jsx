@@ -3,11 +3,12 @@ import emailjs from '@emailjs/browser'
 
 const Contact = () => {
 const [formData, setFormData] = useState({
- name: '',
+    name: '',
     email: '',
     phone: '',
     subject: '',
     message: ''
+    
 })
 
 const [status, setStatus] = useState('')
@@ -30,13 +31,15 @@ const handleSubmit = (e) => {
       {
         from_name: formData.name,
         from_email: formData.email,
+        from_phone: formData.phone,
+        from_subject: formData.subject,
         message: formData.message,
       },
       '-gBOVOwUnv2FheK0o'     
     )
     .then(() => {
       setStatus('success')
-      setFormData({ name: '', email: '', message: '' })
+      setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
     })
     .catch(() => {
       setStatus('error')
